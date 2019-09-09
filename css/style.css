@@ -93,14 +93,14 @@ ul,li
     padding: 80px 0px;
 }
 
-.second-sec h1
+.head-h1 h1
 {
     color: darkgreen;
     text-align: center;
     padding: 15px;
     font-weight: 700;
     font-size: 32px;
-    line-height: 1.5px;
+    line-height: 1.5;
     
 }
 .inner-cont
@@ -193,14 +193,13 @@ ul,li
     {
         width: 100%;
     }
-    .second-sec h1
+    .head-h1 h1
+    
     {
        
        font-weight: 900;
-      font-size: 25px;
-     
-        
-    }
+      font-size: 50px;
+     }
     .inner-cont
     {
         width: 100%;
@@ -208,17 +207,20 @@ ul,li
     .card
     {
         width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
+    
 
     .second-sec .inner-card .card-data h3
     {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
     
     }
     .second-sec .inner-card .card-data p
     {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
     
     }
