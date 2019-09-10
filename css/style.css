@@ -1,70 +1,67 @@
-body,html
-{
+body,
+html {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-*
-{
+
+* {
     box-sizing: border-box;
 }
 
-ul,li
-{
+ul,
+li {
     margin: 0%;
     padding: 0%;
     list-style: none;
 }
-.container
-{
+
+.container {
     width: 90%;
     margin: 0 auto;
     padding: 15px;
-    
-    
+
+
 }
-.main-header
-{
+
+.main-header {
     width: 100%;
     height: 100%;
     position: relative;
-    
+
 }
-.navigation-bar
-{
+
+.navigation-bar {
     width: 100%;
     position: absolute;
     z-index: 1;
     background-color: transparent;
 
 }
-.nav-cont
-{
+
+.nav-cont {
     width: 50%;
     text-align: center;
 }
-.nav-items
-{
-    
-}
-.nav-list
-{
+
+.nav-items {}
+
+.nav-list {
     display: inline-block;
-/*    padding: 10px;*/
-    
+    /*    padding: 10px;*/
+
 }
-.nav-list a
-{
+
+.nav-list a {
     color: white;
     padding: 15px;
     text-decoration: none;
     display: inline-block;
 }
 
-.header-img
-{
+.header-img {
     background-image: url(../images/car.jpeg);
     background-position: center;
     background-size: cover;
@@ -72,159 +69,189 @@ ul,li
     width: 100%;
     height: 100%;
 }
-.content
-{
+
+.content {
     width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-top: 150px;
 }
-.content h1
-{
+
+.content h1 {
     color: aliceblue;
     font-size: 80px;
     font-weight: bolder;
     line-height: 1.5;
- 
+
 }
-.second-sec
-{
+
+.second-sec {
     width: 100%;
     padding: 80px 0px;
 }
 
-.head-h1 h1
-{
+.head-h1 h1 {
     color: darkgreen;
     text-align: center;
     padding: 15px;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.5;
-    
+
 }
-.inner-cont
-{
+
+.inner-cont {
     width: 100%;
     overflow: auto;
     padding: 25px 0px;
 }
-.card
-{
+
+.card {
     width: 25%;
     float: left;
     padding: 0px 10px;
 }
-.inner-card
-{
+
+.inner-card {
     width: 100%;
     border: 1px solid limegreen;
-    
+
 }
-.car-img img
-{
-   width: 100%; 
+
+.car-img img {
+    width: 100%;
 }
-.card-data
-{
+
+.card-data {
     padding: 15px;
     width: 100%;
     text-align: center;
 }
-.second-sec .inner-card .card-data h3
-{
+
+.second-sec .inner-card .card-data h3 {
     font-size: 20px;
     font-weight: 700;
     color: darkgreen;
     line-height: 1.5;
 }
-.second-sec .inner-card .card-data p
-{
+
+.second-sec .inner-card .card-data p {
     font-size: 14px;
     font-weight: 500;
     color: darkgreen;
     line-height: 1.7;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
-{
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .nav-cont {
+        width: 100%;
+
+    }
+
+    .nav-items {
+        width: 100%;
+
+    }
+
+    .nav-list {
+        width: 100%;
+        display: block;
+        padding: 10px;
+        background-color: white;
+
+    }
+
+    .nav-list a {
+        color: darkgreen;
+        font-size: 40px;
+        padding: 20px;
+        font-weight: 700;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .content {
+        width: 80%;
+        padding-top: 90%;
+        margin: auto;
+
+    }
+
+    .content h1 {
+        font-size: 80px;
+        font-weight: 900;
+    }
+
+    .second-sec {
+        width: 100%;
+    }
+
+    .head-h1 h1 {
+
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .inner-cont {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        /*
+        margin-top: 10px;
+        margin-bottom: 10px;
+*/
+        padding: 15px 0px;
+    }
+
+
+    .second-sec .inner-card .card-data h3 {
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .second-sec .inner-card .card-data p {
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+}
+@media only screen and (max-device-width : 768px)
+{
+    .container
+    {
+        width: 100%;
+        padding: 0;
+    }
     .nav-cont
     {
         width: 100%;
-        
     }
     .nav-items
     {
         width: 100%;
-        
+        margin: 0%;
+        padding: 0;
     }
-    .nav-list 
+     .nav-list 
     {
         width: 100%;
         display: block;
-       
+        padding: 10px;
         background-color: white;
-        
-    }
-    .nav-list a
-    {
-        color: darkgreen;
-        font-size: 40px;
-         padding: 20px;
-        font-weight: 700;
-    }
-    .container
-    {
-        width: 100%;
-    }
-    .content
-    {
-        width: 80%;
-        padding-top: 90%;
-        margin: auto;
-        
-    }
-    .content h1
-    {
-        font-size: 80px;
-        font-weight: 900;
-    }
-    .second-sec
-    {
-        width: 100%;
-    }
-    .head-h1 h1
-    
-    {
-       
-       font-weight: 900;
-      font-size: 50px;
-     }
-    .inner-cont
-    {
-        width: 100%;
-    }
-    .card
-    {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
 
-    .second-sec .inner-card .card-data h3
-    {
-    font-size: 30px;
-    font-weight: 800;
-    
     }
-    .second-sec .inner-card .card-data p
-    {
-    font-size: 20px;
-    font-weight: 800;
-    
+    .nav-list a {
+        color: darkgreen;
+        font-size: 25px;
+        padding: 10px;
+        font-weight: 500;
     }
-    
-    
-    
 }
