@@ -196,7 +196,7 @@ p {
     .content {
         width: 80%;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 0;
         right: 0;
         margin: auto;
@@ -215,7 +215,7 @@ p {
     .head-h1 h1 {
 
         font-weight: 500;
-        font-size: 32px;
+        font-size: 22px;
         line-height: 1.25em;
     }
 
@@ -330,9 +330,7 @@ p {
         font-weight: 500;
         text-align: justify;
 
-
-
     }
 
-
 }
+
